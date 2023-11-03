@@ -137,6 +137,7 @@
     box-shadow: 0px 0px 30px 8px rgba(227, 227, 227, 0.75);
     border-radius: 1rem;
     padding: 2rem;
+    /* margin-top: 37rem; */
   }
   
   .input-wrapper {
@@ -259,6 +260,30 @@
     padding-bottom: 1rem;
   }
   
+  /* Media query for tablets and smaller devices */
+@media (max-width: 768px) {
+  .signup-signin-container {
+    width: 80%; /* Adjust the width as needed */
+    min-width: auto; 
+    margin-top: 30rem;/* Remove the min-width */
+  }
+
+  .input-flex {
+    flex-direction: column; /* Adjust for better mobile layout */
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  .signup-signin-container {
+    width: 95%;
+    margin-top: 32rem; /* Adjust the width as needed */
+  }
+
+  .input-flex {
+    flex-direction: column; /* Adjust for better mobile layout */
+  }
+}
 
 
 

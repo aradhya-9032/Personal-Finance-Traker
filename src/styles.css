@@ -25,3 +25,19 @@
   color: #fff;
   transition: all 0.3s;
 }
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  .navbar {
+    padding: 0.4rem 0.8rem; /* Adjust the padding as needed */
+  }
+
+  .navbar-heading {
+    font-size: 1rem; /* Adjust the font size as needed */
+  }
+
+  .navbar-link {
+    font-size: 0.8rem; /* Adjust the font size as needed */
+  }
+}
+

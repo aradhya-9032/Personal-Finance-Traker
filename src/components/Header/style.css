@@ -88,4 +88,34 @@ img.UserProfileImg {
     transition: all 0.3s;
   }
 
+  /* Media query for tablets and smaller devices */
+@media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0.5rem 1rem;
+    }
+  
+    .navbar-heading {
+      font-size: 1.1rem;
+      margin-bottom: 0.5rem;
+    }
+  
+    .navbar-link {
+      font-size: 0.9rem;
+      margin-bottom: 0.3rem;
+    }
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 480px) {
+    .navbar-heading {
+      font-size: 1rem;
+    }
+  
+    .navbar-link {
+      font-size: 0.8rem;
+    }
+  }
+
 

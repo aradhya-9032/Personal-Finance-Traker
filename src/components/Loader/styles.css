@@ -54,3 +54,37 @@
     opacity: 0;
   }
 }
+
+
+
+/* Media query for tablets and smaller devices */
+@media (max-width: 768px) {
+  .wrapper {
+    height: 80vh;
+  }
+
+  .lds-ripple {
+    width: 60px;
+    height: 60px;
+  }
+
+  .lds-ripple div {
+    border: 3px solid var(--theme);
+  }
+}
+
+/* Media query for mobile devices */
+@media (max-width: 480px) {
+  .wrapper {
+    height: 70vh;
+  }
+
+  .lds-ripple {
+    width: 40px;
+    height: 40px;
+  }
+
+  .lds-ripple div {
+    border: 2px solid var(--theme);
+  }
+}
