@@ -60,7 +60,7 @@
 /* Media query for tablets and smaller devices */
 @media (max-width: 768px) {
   .wrapper {
-    height: 80vh;
+    height: 35vh;
   }
 
   .lds-ripple {
@@ -76,7 +76,7 @@
 /* Media query for mobile devices */
 @media (max-width: 480px) {
   .wrapper {
-    height: 70vh;
+    height: 30vh;
   }
 
   .lds-ripple {
